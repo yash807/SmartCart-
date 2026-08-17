@@ -46,7 +46,7 @@ The higher-spending segments also show more web, catalog, and store purchases an
 
 ```text
 SmartCart-/
-├── smartcart.ipynb
+├── SmartCart_Customer_Segmentation.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -59,7 +59,7 @@ cd SmartCart-
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook smartcart.ipynb
+jupyter notebook SmartCart_Customer_Segmentation.ipynb
 ```
 
 Place the source dataset at the repository root as:
@@ -74,11 +74,10 @@ The dataset must contain the customer demographic, purchase-channel, campaign-re
 
 The notebook outputs are intentionally cleared in Git to keep the repository lightweight and make GitHub rendering reliable. Run all cells locally to regenerate the tables and visualizations.
 
-If GitHub's notebook preview is temporarily unavailable, open the notebook with [nbviewer](https://nbviewer.org/github/yash807/SmartCart-/blob/main/smartcart.ipynb).
+If GitHub's notebook preview is temporarily unavailable, open the notebook with [nbviewer](https://nbviewer.org/github/yash807/SmartCart-/blob/main/SmartCart_Customer_Segmentation.ipynb).
 
 ## Limitations and next steps
 
 - Cluster labels describe this dataset and should be validated before business use.
 - The current notebook is exploratory and does not serve predictions through an API.
 - Future work could add cluster stability tests, reusable preprocessing pipelines, automated reports, and a dashboard for segment exploration.
-
